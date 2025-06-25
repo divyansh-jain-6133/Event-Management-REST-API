@@ -1,0 +1,3 @@
+curl -X DELETE http://localhost:8080/events/1/register \
+  -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlzaGFuQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ4ODQzNDgwLCJ1c2VySWQiOjJ9.BAOgTg6jJJIDxVubJu59lrBQn05urBanq8HW_8jA7d8 " \
+  -H "Content-Type: application/json"

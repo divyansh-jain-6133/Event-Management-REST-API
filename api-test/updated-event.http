@@ -1,0 +1,19 @@
+# PUT http://localhost:8080/events/2
+# Content-type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlzaGFuQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ4ODA5NjE1LCJ1c2VySWQiOjJ9.XtH2TOWUIqZDDrPmJj-BTj2yEQzMQesKbIZtjyc7-Fo
+# { 
+#     "name": "Divyansh",
+#     "description": "yooo",
+#     "location": "Test location (Updated!)",
+#     "datetime": "2025-01-01T15:30:00Z"
+# }
+
+curl -X PUT http://localhost:8080/events/2 \
+  -H "Content-Type: application/json" \
+  -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlzaGFuQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ4ODEwNDY1LCJ1c2VySWQiOjJ9.T94uP9pb0-2YHkeGPdusJDVhzaIsOK_QfAKCD8p6qlU " \
+  -d '{
+    "name": "Ishan",
+    "description": "yooo",
+    "location": "A test location",
+    "dateTime": "2025-01-01T15:30:00Z"
+  }'

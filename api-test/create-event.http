@@ -1,0 +1,10 @@
+
+curl -X POST http://localhost:8080/events \
+  -H "Content-Type: application/json" \
+  -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRpdnlhbnNoQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ4ODQyODc4LCJ1c2VySWQiOjF9.cYRK1oiVdqwEpvOHTz80gnw6KQiyEf0ZYKyqXGkk5uU " \
+  -d '{
+    "name": "divyansh",
+    "description": "test",
+    "location": "A test location",
+    "dateTime": "2025-01-01T15:30:00Z"
+  }'
